@@ -203,7 +203,7 @@ bool led_matrix_indicators_user(void) {
 }
 #endif
 
-#ifdef RGB_MATRIX_ENABLE
+#ifdef RGB_MATRIX_ENABLE_WHY_IS_THIS_INCLUDED
 bool rgb_matrix_indicators_user(void) {
     if (factory_reset_ind_state) {
         backlight_test_mode = BACKLIGHT_TEST_OFF;
